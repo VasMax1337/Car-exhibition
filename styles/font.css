@@ -1,0 +1,51 @@
+ /* @font-face {
+    font-display: swap; 
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/AnyConv.com__Unbounded-Light.woff2') format('woff2');
+    src: url('../fonts/Unbounded-Light.ttf') format('truetype'); 
+  } */
+  
+  @font-face {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/AnyConv.com__Unbounded-Regular.woff2') format('woff2'),
+    url('../fonts/Unbounded-Regular.ttf') format('truetype');  
+  } 
+  
+  @font-face {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/AnyConv.com__Unbounded-Medium.woff2') format('woff2'),
+    url('../fonts/Unbounded-Medium.ttf') format('truetype');  
+  }
+  
+  /* @font-face {
+    font-display: swap; 
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/AnyConv.com__Unbounded-SemiBold.woff2') format('woff2');
+    src: url('../fonts/Unbounded-SemiBold.ttf') format('truetype');  
+  }
+  
+  @font-face {
+    font-display: swap; 
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/AnyConv.com__Unbounded-Bold.woff2') format('woff2');
+    src: url('../fonts/Unbounded-Bold.ttf') format('truetype');  
+  }
+  
+  @font-face {
+    font-display: swap; 
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/AnyConv.com__Unbounded-ExtraBold.woff2') format('woff2');
+    src: url('../fonts/Unbounded-ExtraBold.ttf') format('truetype');  
+  } */
