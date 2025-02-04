@@ -1,0 +1,27 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 238px;
+    height: 56px;
+    border-radius: 60px;
+    border: 2px solid var(--main-button-border-color);
+    cursor: pointer;
+    color: var(--main-button-text-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.button:focus, 
+.button:hover, 
+.button:active {
+    background-color: var(--secendery-background-color-button);
+    color: var(--secendery-button-text-color);
+}
+
+.button_secendery:focus, 
+.button_secendery:hover, 
+.button_secendery:active {
+    width: 282px;
+    background-color: var(--secendery-background-color-button);
+    color: var(--secendery-button-text-color);
+}

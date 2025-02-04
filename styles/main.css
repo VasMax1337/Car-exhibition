@@ -1,0 +1,47 @@
+@import './reset.css';
+@import './font.css';
+@import './colors.css';
+
+/* blocks */
+@import './logo.css';
+@import './menu.css';
+@import './header.css';
+@import 'button.css';
+@import 'museum-info.css';
+
+* {
+    box-sizing: border-box;
+    font-family: Unbounded;
+    font-style: normal;
+}
+
+body {
+    position: relative;
+}
+
+.container {
+    padding: 0 195px;
+}
+
+.title {
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 86px;
+}
+
+.descriptor {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.link {
+    cursor: pointer;
+}
+
