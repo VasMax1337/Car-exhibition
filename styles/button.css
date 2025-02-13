@@ -14,14 +14,14 @@
 .button:focus, 
 .button:hover, 
 .button:active {
-    background-color: var(--secendery-background-color-button);
-    color: var(--secendery-button-text-color);
+    background-color: var(--secondery-background-color-button);
+    color: var(--secondery-button-text-color);
 }
 
-.button_secendery:focus, 
-.button_secendery:hover, 
-.button_secendery:active {
+.button_secondery:focus, 
+.button_secondery:hover, 
+.button_secondery:active {
     width: 282px;
-    background-color: var(--secendery-background-color-button);
-    color: var(--secendery-button-text-color);
+    background-color: var(--secondery-background-color-button);
+    color: var(--secondery-button-text-color);
 }

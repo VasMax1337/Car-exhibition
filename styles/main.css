@@ -1,13 +1,20 @@
-@import './reset.css';
+@import 'reset.css';
 @import './font.css';
 @import './colors.css';
 
 /* blocks */
+@import 'shared.css';
 @import './logo.css';
 @import './menu.css';
 @import './header.css';
 @import 'button.css';
 @import 'museum-info.css';
+@import 'cars.css';
+@import 'photo-link.css';
+@import 'program.css';
+@import 'prizes.css';
+@import 'price.css';
+@import 'divider.css';
 
 * {
     box-sizing: border-box;
@@ -17,31 +24,5 @@
 
 body {
     position: relative;
-}
-
-.container {
-    padding: 0 195px;
-}
-
-.title {
-    font-size: 86px;
-    font-weight: 500;
-    line-height: 86px;
-}
-
-.descriptor {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-}
-
-.text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.link {
-    cursor: pointer;
 }
 

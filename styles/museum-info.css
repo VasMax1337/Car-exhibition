@@ -1,0 +1,18 @@
+.museum-info {
+    position: relative;
+    padding: 150px 0 172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--main-background-color);
+}
+
+.wrapper-info {
+    display: flex;
+    width: 100%;
+}
+
+.museum-info__block:first-child {
+    margin-right: 150px;
+}

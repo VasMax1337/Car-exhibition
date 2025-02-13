@@ -1,26 +1,16 @@
 .header {
-    padding: 38px 0 90px;
-    background: url(../imges/header-background.jpg) no-repeat center/cover;
-}
-
-.header__block {
-    height: 38px;
-}
-
-.header__block_top {
-    position: fixed;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    top: 38px;
-    left: 0;
+    height: 1130px;
+    padding-top: 38px;
+    background: url(../imges/header-background.jpg) no-repeat center/cover;
 }
 
 .header__partners {
     display: flex;
     justify-content: space-between;
-    margin-top: 88px;
+    margin-top: 76px;
     width: 575px;
 }
 
@@ -37,14 +27,14 @@
     margin-top: 30px;
 }
 
-.button_secendery {
+.button_secondery {
     margin-right: 24px;
 }
 
 .header__arrow {
     cursor: pointer;
     position: relative;
-    margin: 162px auto 0;
+    margin: 162px auto 90px;
     width: 28px;
     height: 7px;
 }

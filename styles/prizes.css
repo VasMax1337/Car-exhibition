@@ -1,0 +1,48 @@
+.prizes__wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.prizes__item {
+    background-color: var(--item-background-color);
+    border-radius: 40px;
+    width: 750px;
+    height: 850px;
+
+}
+
+.prizes__item_secondery {
+    background-color: var(--item-secondery-background-color);
+}
+
+.prizer__item_wrapper {
+    width: 550px;
+    height: 216px;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.prizer__item_wrapper-secondery {
+    height: 291px;
+}
+
+.prizer_title_secondery,
+.prizer_text_secondery {
+    color: var(--item-secondery-color);
+}
+
+.prizer_pic {
+    width: 657;
+    height: 425;
+    margin-top: 140px;
+    margin-left: 284px;
+
+}
+
+.prizer_pic_secondery {
+    width: 475;
+    height: 548;
+    margin-top: 45px;
+    margin-left: 296px;
+
+}

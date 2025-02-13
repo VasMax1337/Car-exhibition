@@ -1,0 +1,43 @@
+.cars {
+  position: relative;
+  width: 100%;
+  background-color: var(--cars-background-color);
+}
+
+.cars__wrapper {
+  padding: 290px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cars__text,
+.cars__button {
+  margin-top: 50px;
+}
+
+.cars__text {
+  display: block;
+  width: 650px;
+}
+
+.cars__item:not(:first-child) {
+  margin-top: 130px;
+}
+
+.cars__item_picture,
+.cars__item_full-picture,
+.cars__item_vertical-picture {
+  width: 650px;
+  height: 650px;
+  border-radius: 40px;
+}
+
+.cars__item_full-picture {
+  width: 750px;
+  height: 750px;
+}
+
+.cars__item_vertical-picture {
+    width: 750px;
+    height: 600px;
+}

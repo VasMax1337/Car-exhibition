@@ -1,0 +1,20 @@
+.photo__link {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    height: 212px;
+    border-radius: 40px;
+    padding: 40px;
+    background-color: var(--photo-linl-main-background-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.photo__link_secondery {
+    background-color: var(--photo-linl-secondery-background-color);
+}
+
+.photo__link_arrow {
+    width: 22px;
+    height: 22px;
+}

@@ -1,6 +1,23 @@
 :root {
+    --main-background-color: #F6F5F5;
+    --menu-background-color: rgba(246, 245, 245, 50%);
+    --secondery-background-color: #D0E4D9;
+    --cars-background-color: #D0E4D9;
+    --tertiary-background-color: #F6F9F1;
+    --program-background-color: #C1C1C1;
+    --item-background-color: #D2E3ED;
+    --item-secondery-background-color: #353535;
+    --ellipse-background-color:#E8E8E8 ;
+    
+
+    /**/
+    --photo-linl-main-background-color: #8EAAAB;
+    --photo-linl-secondery-background-color: #1E1E25;
+
     /* text */
     --main-text-colors: #1E1E25;
+    --secondery-text-color: #FFFFFF;
+    --item-secondery-color: #FFFFFF;
 
     /* menu link*/
     --main-menu-hover-color: #007175;
@@ -11,6 +28,6 @@
     --main-button-text-color: #6C79EC;
 
     /* secendery button */
-    --secendery-background-color-button: #6C79EC;
-    --secendery-button-text-color: #fefefe;
+    --secondery-background-color-button: #6C79EC;
+    --secondery-button-text-color: #fefefe;
 }
